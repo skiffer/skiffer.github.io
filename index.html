@@ -9,7 +9,10 @@ title: All my projects
     <div class="startup">
       <img src="{{ startup.logo }}" alt="{{ startup.name }} logo">
       <a href="{{ startup.link }}">
-        <h3><i class="fas fa-link"></i>{{ startup.name }}</h3>
+        <p class="link"><i class="fas fa-link"></i>{{ startup.name }}</p>
+      </a>
+      <a href="{{ startup.product_hunt_link }}">
+        <p class="link"><i class="fas fa-link"></i>Product Hunt</p>
       </a>
       <p>{{ startup.description }}</p>
     </div>
@@ -18,7 +21,11 @@ title: All my projects
 </div>
 
 <style>
-  h3 i {
+  .link {
+    margin: 0px;
+    margin-bottom: 0 !important;
+  }
+  p i {
     padding-right: 5px;
   }
   .startup-container {
