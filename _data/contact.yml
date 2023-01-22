@@ -14,14 +14,18 @@
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
-#-
-#  type: rss
-#  icon: 'fas fa-rss'
-#  noblank: true
 -
   type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://ua.linkedin.com/in/yaroslav-mykhailov-287ba744'                  # Fill with your Linkedin homepage
+-
+  type: wip
+  icon: fas fa-work-in-progress
+  url: https://wip.co/@yaro
+#-
+#  type: rss
+#  icon: 'fas fa-rss'
+#  noblank: true
 
 # Uncomment and complete the url below to enable more contact options
 # -
