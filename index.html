@@ -1,4 +1,66 @@
 ---
-layout: home
+layout: page
+title: All my projects
 # Index page
 ---
+<div class="startup-container">
+  <div class="startup-row">
+    {% for startup in site.data.startups %}
+    <div class="startup">
+      <img src="{{ startup.logo }}" alt="{{ startup.name }} logo">
+      <a href="{{ startup.link }}">
+        <h3><i style="padding-right: 5px" class="fas fa-link"></i>{{ startup.name }}</h3>
+      </a>
+      <p>{{ startup.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .startup-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .startup-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .startup {
+    flex: 0 0 33.33%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .startup img {
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .startup a {
+    text-decoration: none;
+  }
+  /* Media Queries */
+  @media screen and (max-width: 1200px) {
+    .startup {
+      flex-basis: 50%;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .startup {
+      flex-basis: 45%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .startup {
+      flex-basis: 100%;
+    }
+  }
+</style>
+

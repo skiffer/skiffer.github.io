@@ -19,7 +19,7 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: HomeLab Docs                          # the main title
+title: Yaroslav Mykhailov                          # the main title
 
 tagline: A Doc site for my homelab   # it will display as the sub-title
 
@@ -38,13 +38,14 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Yaro Mykhailov
+  name: Yaroslav Mykhailov
   email: yaroslav91@gmail.com          # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/ski0xFF      # change to your twitter homepage
     - https://github.com/skiffer       # change to your github homepage
     - https://ua.linkedin.com/in/yaroslav-mykhailov-287ba744
+    - https://t.me/yaroslav_knyazev1
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
 
