@@ -1,36 +1,44 @@
-- name: Startup 1
-  logo: https://img.freepik.com/free-vector/business-startup-concept-with-rocket-bulb-design_1017-33470.jpg?w=2000
-  link: https://docgpt.ai
-  product_hunt_link: https://docgpt.ai
-  description: Startup 1 is a company that specializes in developing innovative technology solutions for small businesses.
+#- name: Startup 1
+#  logo: assets/img/preview_just_crypto_bar.png
+#  link: https://docgpt.ai
+#  product_hunt_link: '<a href="https://www.producthunt.com/posts/just-crypto-bar?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-just&#0045;crypto&#0045;bar" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=370443&theme=neutral" alt="Just&#0032;Crypto&#0032;Bar - Live&#0032;coin&#0032;tracker&#0032;&#0040;BTC&#0044;&#0032;ETH&#0032;&#0038;&#0032;others&#0041;&#0032;💰&#0032;on&#0032;your&#0032;macOS&#0032;bar | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>'
+#  description: Startup 1 is a company that specializes in developing innovative technology solutions for small businesses.
+#
+#- name: Startup 2
+#  logo: https://img.freepik.com/free-vector/business-startup-concept-with-rocket-bulb-design_1017-33470.jpg?w=2000
+#  link: https://docgpt.ai
+#  product_hunt_link: '<a href="https://www.producthunt.com/posts/just-crypto-bar?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-just&#0045;crypto&#0045;bar" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=370443&theme=neutral" alt="Just&#0032;Crypto&#0032;Bar - Live&#0032;coin&#0032;tracker&#0032;&#0040;BTC&#0044;&#0032;ETH&#0032;&#0038;&#0032;others&#0041;&#0032;💰&#0032;on&#0032;your&#0032;macOS&#0032;bar | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>'
+#  description: Startup 2 is a company that is focused on creating sustainable and eco-friendly products for consumers.
 
-- name: Startup 2
-  logo: https://img.freepik.com/free-vector/business-startup-concept-with-rocket-bulb-design_1017-33470.jpg?w=2000
+- name: DocGPT.ai
+  logo: assets/img/docgpt-logo.gif
   link: https://docgpt.ai
-  product_hunt_link: https://docgpt.ai
-  description: Startup 2 is a company that is focused on creating sustainable and eco-friendly products for consumers.
+  product_hunt_link: '<iframe style="border: none;" src="https://cards.producthunt.com/cards/posts/377406?v=1" width="400" height="305" frameborder="0" scrolling="no" allowfullscreen></iframe>'
+  platform: Add-on Google Docs | Google Sheet
+  description: '<div>Revolutionize your content writing with DocGPT - the AI-powered assistant for all your document needs. Write smarter, faster, and more efficiently.</div><a href="https://workspace.google.com/marketplace/app/crypto2sheet/299893114160?pann=b" target="_blank" aria-label="Get it from the Google Workspace Marketplace"><div class="link"><i class="fas fa-link"></i> Workspace</div></a>'
+#  description: '
+#  <a href="https://workspace.google.com/marketplace/app/crypto2sheet/299893114160?pann=b" target="_blank" aria-label="Get it from the Google Workspace Marketplace">
+#          <img alt="Google Workspace Marketplace badge" alt-text="Get it from the Google Workspace Marketplace" src="https://workspace.google.com/static/img/marketplace/en/gwmBadge.svg?" style="height: 68px">
+#        </a>
+#'
 
-- name: Startup 3
-  logo: https://img.freepik.com/free-vector/business-startup-concept-with-rocket-bulb-design_1017-33470.jpg?w=2000
-  link: https://docgpt.ai
-  product_hunt_link: https://docgpt.ai
-  description: Startup 3 is a healthtech startup that is working on developing a platform for telemedicine services.
+- name: Crypto2Sheet
+  #  logo: assets/img/startup-idea.png
+  link: https://workspace.google.com/u/2/marketplace/app/crypto2sheet/299893114160
+  product_hunt_link: '<iframe style="border: none;" src="https://cards.producthunt.com/cards/posts/376199?v=1" width="400" height="305" frameborder="0" scrolling="no" allowfullscreen></iframe>'
+  description: 'Allows you to view all transactions made, notifications'
+  platform: Add-on Google Sheet
 
-- name: Startup 3
-  logo: https://img.freepik.com/free-vector/business-startup-concept-with-rocket-bulb-design_1017-33470.jpg?w=2000
-  link: https://docgpt.ai
-  product_hunt_link: https://docgpt.ai
-  description: Startup 3 is a healthtech startup that is working on developing a platform for telemedicine services.
+- name: Just Crypto Bar (macOS Bar)
+  logo: assets/img/preview_just_crypto_bar.png
+  link: https://cryptotrackermac.com/
+  product_hunt_link: '<iframe style="border: none;" src="https://cards.producthunt.com/cards/posts/370443?v=1" width="400" height="305" frameborder="0" scrolling="no" allowfullscreen></iframe>'
+  platform: MacOS - UI Bar
+  description: Allows you to view all transactions made, notifications
 
-- name: Startup 3
-  logo: https://img.freepik.com/free-vector/business-startup-concept-with-rocket-bulb-design_1017-33470.jpg?w=2000
-  link: https://docgpt.ai
-  product_hunt_link: https://docgpt.ai
-  description: Startup 3 is a healthtech startup that is working on developing a platform for telemedicine services.
-
-- name: Startup 3
-  logo: https://img.freepik.com/free-vector/business-startup-concept-with-rocket-bulb-design_1017-33470.jpg?w=2000
-  link: https://docgpt.ai
-  product_hunt_link: https://docgpt.ai
-  description: Startup 3 is a healthtech startup that is working on developing a platform for telemedicine services.
+#- name: Startup 3
+#  logo: assets/img/startup-idea.png
+#  link: https://docgpt.ai
+#  product_hunt_link: https://docgpt.ai
+#  description: Startup 3 is a healthtech startup that is working on developing a platform for telemedicine services.
 

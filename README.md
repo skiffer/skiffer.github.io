@@ -44,3 +44,25 @@ This work is published under [MIT][mit] License.
 [use-template]: https://github.com/cotes2020/chirpy-starter/generate
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+
+## Commands
+https://jekyllrb.com/docs/
+```shell
+gem install jekyll bundler
+```
+
+Create a new Jekyll site at ./myblog.
+```shell
+jekyll new myblog
+```
+
+Change into your new directory.
+```shell
+cd myblog
+```
+
+Build the site and make it available on a local server.
+```shell
+bundle exec jekyll serve
+```

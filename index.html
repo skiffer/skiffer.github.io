@@ -7,14 +7,13 @@ title: All my projects
   <div class="startup-row">
     {% for startup in site.data.startups %}
     <div class="startup">
-      <img src="{{ startup.logo }}" alt="{{ startup.name }} logo">
+<!--      <img src="{{site.url}}/{{ startup.logo }}" alt="{{ startup.name }} logo">-->
+      {{ startup.product_hunt_link }}
       <a href="{{ startup.link }}">
-        <p class="link"><i class="fas fa-link"></i>{{ startup.name }}</p>
+        <div class="link"><i class="fas fa-link"></i> {{ startup.name }}</div>
       </a>
-      <a href="{{ startup.product_hunt_link }}">
-        <p class="link"><i class="fas fa-link"></i>Product Hunt</p>
-      </a>
-      <p>{{ startup.description }}</p>
+      <div>Platform: {{ startup.platform }}</div>
+      <div>{{ startup.description }}</div>
     </div>
     {% endfor %}
   </div>
@@ -24,6 +23,8 @@ title: All my projects
   .link {
     margin: 0px;
     margin-bottom: 0 !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px;
   }
   p i {
     padding-right: 5px;
@@ -31,6 +32,7 @@ title: All my projects
   .startup-container {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .startup-row {
     display: flex;
@@ -46,11 +48,18 @@ title: All my projects
     margin: 10px;
   }
   .startup img {
-    width: 100px;
+    width: 300px;
     margin: 0 auto;
   }
   .startup a {
     text-decoration: none;
+  }
+
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 </style>
 
